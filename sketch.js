@@ -140,7 +140,7 @@ function draw() {
   console.log(mouseX);
 //   console.log(mouseY);
 
-  if(touches.length > windowWidth/2 ){
+  if(touches.length > 0 ){
 	  
 	touches=[];
 	monster.x = 100;
