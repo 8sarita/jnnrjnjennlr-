@@ -61,7 +61,7 @@ function setup() {
 	monster.addImage(monsterImg1);
 	monster.scale = 0.25;
 
-	left = createSprite(200,200);
+	left = createSprite(290,500);
 	left.addImage(leftImg);
 
 }
@@ -140,7 +140,7 @@ function draw() {
   console.log(mouseX);
 //   console.log(mouseY);
 
-  if(touches.length > 0 ){
+  if(touches.length > 300 ){
 	  
 	touches=[];
 	monster.x = 100;
